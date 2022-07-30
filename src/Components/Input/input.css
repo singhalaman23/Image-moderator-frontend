@@ -1,0 +1,92 @@
+.iframeDisplay { 
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Stoke', serif;
+  position:absolute;
+  margin-top: 400px;
+  border:none;
+  height: 300px;
+  width: 50%;
+}
+.iframediv{
+  display: flex;
+  justify-content: center;
+}
+
+.URLinput{
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Stoke', serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #252525;
+    display: block;
+    width: 300px;
+    background: #e6e6e6;
+    height: 50px;
+    border: black;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 25px;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    margin-top: 40px;
+}
+.URLinput:hover{
+  background-color: #cbcbcb;
+}
+
+
+
+.buttonsdiv{
+  display: flex;
+  justify-content: center;
+}
+.buttons {
+  font-family: 'Kaushan Script', cursive;
+font-family: 'Stoke', serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: rgb(0, 0, 0);
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+  background: #42bc2c;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 25px;
+  margin: 6px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.buttons:hover{
+  background-color: rgb(1, 146, 1);
+}
+
+.inputdiv{
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 350px) {
+  .URLinput{
+    width: 150px;
+  }
+  .buttons{
+    width: 75px;
+  }
+}
+

@@ -1,0 +1,12 @@
+img{
+
+    border: 0;
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+}
+.imagediv{
+    display: flex;
+    justify-content: center;
+    margin-top : 50px;
+}
