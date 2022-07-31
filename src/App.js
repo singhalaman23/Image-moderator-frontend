@@ -20,6 +20,10 @@ class App extends React.Component{
         this.setState({inputValue:event.target.value})
     }
     onClickDetect=()=>{
+        if((this.state.inputValue).length === 0){
+            alert("Please enter an image URL before detecting !");
+            return;
+        }
         this.setState({imageUrl:this.state.inputValue})
     }
     render(){

@@ -6,7 +6,7 @@ const Footer = () =>{
     return(
         <div className="footerdiv">
             <footer>
-                Made with &#128150; by Aman Singhal<br/> <br/>
+                Made with &#128151; by Aman Singhal<br/> <br/>
                 <span>
                 <a href="https://www.linkedin.com/in/aman-singhal-5340b4227/">
                     <img alt="" src={linkedin_logo} className="logosclass"></img>
@@ -21,6 +21,13 @@ const Footer = () =>{
                 <span>All Rights Reserved</span> 
                 <span className="samples">{"(For sample image URLs, click - "}
                 <a className="samplesLink" href="https://github.com/singhalaman23/Image-moderator-sampleURLs/blob/main/sampleURLs.md">
+                    {"here"}
+                </a>
+                {" )"}
+                </span>
+
+                <span className="samples">{"(Facing any problem? click - "}
+                <a className="samplesLink" href="https://github.com/singhalaman23/Image-moderator-sampleURLs/blob/main/problems.md">
                     {"here"}
                 </a>
                 {" )"}
