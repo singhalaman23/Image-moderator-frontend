@@ -4,7 +4,7 @@ import './input.css';
 const Input = ({onInputChange,onClickDetect})=>{
     return(
         <div className="container">
-//             <form action='https://shielded-temple-21044.herokuapp.com/ans' method="get" target="displayAns" >
+{/*              <form action='https://shielded-temple-21044.herokuapp.com/ans' method="get" target="displayAns" > */}
         <form action='https://image-moderator-backend.onrender.com/ans' method="get" target="displayAns" >
                 <div className="inputdiv">
                     <label htmlFor="URL"></label><br/>
